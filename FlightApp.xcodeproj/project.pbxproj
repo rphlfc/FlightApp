@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6413B4A32538A1E100C75D5B /* LogoShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413B4A22538A1E100C75D5B /* LogoShape.swift */; };
+		6413B4A62538A4F400C75D5B /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413B4A52538A4F400C75D5B /* LogoView.swift */; };
+		6413B4A9253905CE00C75D5B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413B4A8253905CE00C75D5B /* LoginView.swift */; };
+		6413B4AC25390A0200C75D5B /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413B4AB25390A0200C75D5B /* FormField.swift */; };
+		6413B4AF25390EEC00C75D5B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413B4AE25390EEC00C75D5B /* HomeView.swift */; };
 		6487D70525373D0400AEBAE3 /* FlightAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487D70425373D0400AEBAE3 /* FlightAppApp.swift */; };
 		6487D70725373D0400AEBAE3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6487D70625373D0400AEBAE3 /* ContentView.swift */; };
 		6487D70925373D0600AEBAE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6487D70825373D0600AEBAE3 /* Assets.xcassets */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6413B4A22538A1E100C75D5B /* LogoShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoShape.swift; sourceTree = "<group>"; };
+		6413B4A52538A4F400C75D5B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		6413B4A8253905CE00C75D5B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6413B4AB25390A0200C75D5B /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		6413B4AE25390EEC00C75D5B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6487D70125373D0400AEBAE3 /* FlightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6487D70425373D0400AEBAE3 /* FlightAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAppApp.swift; sourceTree = "<group>"; };
 		6487D70625373D0400AEBAE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				6487D71B2537D28200AEBAE3 /* CustomTabView.swift */,
+				6413B4A22538A1E100C75D5B /* LogoShape.swift */,
+				6413B4A52538A4F400C75D5B /* LogoView.swift */,
+				6413B4A8253905CE00C75D5B /* LoginView.swift */,
+				6413B4AB25390A0200C75D5B /* FormField.swift */,
+				6413B4AE25390EEC00C75D5B /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6413B4AC25390A0200C75D5B /* FormField.swift in Sources */,
+				6413B4A9253905CE00C75D5B /* LoginView.swift in Sources */,
+				6413B4A62538A4F400C75D5B /* LogoView.swift in Sources */,
+				6413B4A32538A1E100C75D5B /* LogoShape.swift in Sources */,
 				6487D71C2537D28200AEBAE3 /* CustomTabView.swift in Sources */,
+				6413B4AF25390EEC00C75D5B /* HomeView.swift in Sources */,
 				6487D70725373D0400AEBAE3 /* ContentView.swift in Sources */,
 				6487D70525373D0400AEBAE3 /* FlightAppApp.swift in Sources */,
 			);

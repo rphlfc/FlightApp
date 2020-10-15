@@ -8,7 +8,8 @@ Encontrei esse [layout](https://www.instagram.com/p/B_4pDPtF4WM/?igshid=1c74rtol
 
 ## Vídeos
 Parte 1/3 - [Vídeo no YouTube](https://youtu.be/tU_ENFMMDFU)
- 
+Parte 2/3 - [Vídeo no YouTube](https://youtu.be/jIvHT-7Knms)
+
 ## Requisitos
 - iOS 14
 - SwiftUI

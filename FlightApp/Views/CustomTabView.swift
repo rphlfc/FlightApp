@@ -15,6 +15,7 @@ struct CustomTabView: View {
     private let screenWidth: CGFloat = UIScreen.main.bounds.width
     private let barWidth: CGFloat = 50
     private let horizontalPadding: CGFloat = 30
+    private let itemWidth: CGFloat = 50
     
     var body: some View {
         VStack {
@@ -26,21 +27,17 @@ struct CustomTabView: View {
                     .foregroundColor(Color(#colorLiteral(red: 0.4727244973, green: 0.7755243182, blue: 0.9964216352, alpha: 1)))
                     .offset(x: calculateXOffset(index: selectedIndex), y: -2)
                 
-                HStack(spacing: 0) {
+                HStack(spacing: (screenWidth - (itemWidth * CGFloat(items.count))) / CGFloat(items.count)) {
                     ForEach(0 ..< items.count) { i in
                         Image(systemName: items[i])
                             .font(.system(size: 21, weight: .bold))
                             .rotationEffect(.degrees(i == 1 ? -45 : 0))
-                            .frame(width: barWidth, height: 50)
+                            .frame(width: itemWidth, height: 50)
                             .onTapGesture {
                                 withAnimation {
                                     selectedIndex = i
                                 }
                             }
-                        
-                        if i != items.count - 1 {
-                            Spacer()
-                        }
                     }
                 }
                 .padding(.horizontal, horizontalPadding)
