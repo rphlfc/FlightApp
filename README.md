@@ -3,7 +3,7 @@ Encontrei esse [layout](https://www.instagram.com/p/B_4pDPtF4WM/?igshid=1c74rtol
 
 ## Screenshots
 <p align="center">
-    <img src="" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/96062796-f7b4a500-0e6c-11eb-8368-d94560ca137c.png" width="400">&nbsp;
 </p>
 
 ## Vídeos
