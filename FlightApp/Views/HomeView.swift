@@ -10,8 +10,13 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         ZStack {
+            HomeContentView()
+            
             CustomTabView()
         }
+        .navigationTitle("")
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
 

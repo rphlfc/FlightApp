@@ -3,12 +3,13 @@ Encontrei esse [layout](https://www.instagram.com/p/B_4pDPtF4WM/?igshid=1c74rtol
 
 ## Screenshots
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/16376748/96196319-779e4600-0f25-11eb-9b4b-e66b530d6c5a.png" width="400">&nbsp;
+    <img src="https://user-images.githubusercontent.com/16376748/96326203-0c2ba580-1005-11eb-9846-08c952b3e23e.png" width="400">&nbsp;
 </p>
 
 ## Vídeos
 - Parte 1/3 - [Vídeo no YouTube](https://youtu.be/tU_ENFMMDFU)
 - Parte 2/3 - [Vídeo no YouTube](https://youtu.be/jIvHT-7Knms)
+- Parte 3/3 - [Vídeo no YouTube](https://youtu.be/Z7FXY89LHnw)
 
 ## Requisitos
 - iOS 14
